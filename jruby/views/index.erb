@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/css/styles.css" type="text/css" charset="utf-8">
+
+<% if @profile %>
+  <img src='<%= @profile.picture_url %>' />
+
+  <h1><%= @profile.first_name %> <%= @profile.last_name %></h1>
+  <h2><%= @profile.headline %></h2>
+  <p>
+    <%= @profile.summary %>
+  </p>
+<% end %>
+
+<h2>Connections</h2>
+<% if @connections %>
+  <ul>
+  <% for connection in @connections do %>
+    <li>
+      <img src="<%= connection.picture_url %>" />
+      <h3><%= connection.first_name %>
+      <%= connection.last_name %></h3>
+      <%= connection.headline %>
+      <%= connection.industry %>
+    </li>
+  <% end %>
+  </ul>
+<% end %>
+

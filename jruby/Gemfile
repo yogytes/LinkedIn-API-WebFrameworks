@@ -1,0 +1,11 @@
+source :rubygems
+
+gem "oauth"
+gem "json"
+gem "linkedin"
+gem "sinatra"
+gem "sinatra-reloader"
+
+platforms :jruby do
+  gem "jruby-openssl"
+end

@@ -1,0 +1,24 @@
+@(prof: json.Profile, connections: json.Connections)
+
+@main("Your Profile") {
+    
+ <img src="@prof.pictureUrl" alt="you" />
+
+ <h1>@prof.firstName @prof.lastName</h1>
+ <h2>@prof.headline | @prof.industry</h2>
+ <p>
+   @prof.summary
+ </p>
+ 
+ <h2>Connections</h2>
+ @if(connections != null && connections._total > 0 && connections.values != null){
+   <ul>
+    @for(con <- connections.values){
+      <li><h3>@con.firstName @con.lastName</h3>
+          @con.headline @con.industry
+      </li>
+    }
+   </ul>
+ }
+  
+}

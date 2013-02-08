@@ -1,0 +1,57 @@
+1) Get your LinkedIn key and secret (required for OAuth with our API's) at https://www.linkedin.com/secure/developer
+
+JRuby
+-----
+
+1) Install JRuby jruby.org
+
+2)
+  $ cd faceoff/jruby
+  $ jruby -S gem install bundler
+  $ jruby -S app.rb
+
+3) Now go to http://localhost:4567/
+
+You can optionally try it live at http://jruby-faceoff.heroku.com/
+
+Play -- www.playframework.org
+----
+1)
+ $ Download a play 2.X version -- currently only 2.0 is out
+ $ Unpack play
+ $ add the play-2.X/ directory to your PATH variable
+
+2) go into scalaPlay or javaPlay and:
+ $ add your linkedin api key and secret into the conf/application.conf file 
+   -- the variables are at the bottom
+ $ play run 
+   -- to start the app
+
+3) go to http://localhost:9000
+
+4) go into scalaPlay or javaPlay and type:
+ $ play eclipsify  
+   -- to create the environment settings for eclipse so you can load the project
+
+Clojure
+-------
+1) Install Leiningen build tool:
+   https://github.com/technomancy/leiningen
+
+2) Download dependencies with:
+   $ lein deps
+
+3) Start server:
+   $ lein ring server
+
+Python
+------
+1) You will need this Python module:
+   -- http://packages.python.org/Flask-OAuth/
+
+
+DISCLAIMER
+---------
+Code provided here has been created by many awesome developers at LinkedIn and the LinkedIn API Team.
+I have merely collated this information and made it available in a public Github repository for the benefit of others.
+Use as a learning resource to get started quickly (some code here is not tested)

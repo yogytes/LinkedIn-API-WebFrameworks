@@ -3,7 +3,8 @@ Useful Links
 
 #### LinkedIn API Related ####
 
-* [apigee](https://apigee.com/console/linkedin): try API calls to LinkedIn, Twitter, FB, etc. straight from the browser. No messing with OAuth or API keys: just plugin in URLs and see the results instantly.
+* [apigee](https://apigee.com/console/linkedin): try API calls to LinkedIn
+* [Another API playground](http://electric-meadow-1119.herokuapp.com/linkedin)
 * [LinkedIn JS API Console](http://developer.linkedinlabs.com/jsapi-console/): use our JavaScript APIs (Connect) straight from the browser. Try plugins and API calls without setting up API keys, OAuth, etc.
 * [Examples of LinkedIn API usage with Clojure, Java Play, JavaScript, jRuby, Python Flask and Scala Play](https://github.com/harshsinghal/LinkedIn-API-WebFrameworks)
 * [Examples of LinkedIn API usage with Scala and Ruby of Rails](https://github.com/dragade)

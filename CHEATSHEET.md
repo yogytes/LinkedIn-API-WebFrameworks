@@ -38,8 +38,8 @@
 - https://github.com/harshsinghal/LinkedIn-API-WebFrameworks/blob/master/HACKDAY-RESOURCES.md
 
 #### LinkedIn API Help
-- In case of queries please email lihack@linkedin.com (with API Key and a shot description of your app)
-- If your requests are being throttled, email lihack@linkedin.com with your API Key and which API call type is being throttled
+- In case of queries please email lihack@linkedin.com (with API Key and a brief description of your app)
+- If your API requests are being throttled, email lihack@linkedin.com with your API Key and which API call type is being throttled
 - It may take 20-30 minutes to respond to requests for increasing throttling limits
 
 ####DISCLAIMER

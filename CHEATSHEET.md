@@ -16,6 +16,8 @@
 
 - Using Oauth2 with LinkedIn : http://www.slideshare.net/KamyarMohager/o-auth-2-and-linked-inpdf
 
+- Achieve massive content magnification via the LinkedIn API : http://www.slideshare.net/rverma21/linkedin-for-journalists-training-linkedin-api-platform
+
 ### Play with the API here
 - Apigee console : https://apigee.com/console/linkedin
 - http://electric-meadow-1119.herokuapp.com/linkedin
@@ -34,6 +36,11 @@
 
 #### Hackday Resources (contains links to more example code using LinkedIn API)
 - https://github.com/harshsinghal/LinkedIn-API-WebFrameworks/blob/master/HACKDAY-RESOURCES.md
+
+#### LinkedIn API Help
+- In case of queries please email lihack@linkedin.com (with API Key and a shot description of your app)
+- If your requests are being throttled, email lihack@linkedin.com with your API Key and which API call type is being throttled
+- It may take 20-30 minutes to respond to requests for increasing throttling limits
 
 ####DISCLAIMER
 ##### Some repositories contain code provided/created by LinkedIn Developers while others belong to people outside of LinkedIn.
